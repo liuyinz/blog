@@ -1,5 +1,5 @@
 ---
-title: '利用HUGO搭建博客'
+title: 'Set Blog With Hugo'
 date: 2020-11-25T08:17:41+08:00
 draft: false
 tags:
