@@ -1,10 +1,10 @@
 ---
 title: '利用HUGO搭建博客'
 date: 2020-11-25T08:17:41+08:00
+draft: false
 tags:
   - github
   - hugo
-draft: false
 ---
 
 <!-- markdown-toc start -->
@@ -34,8 +34,10 @@ git submodule add https://github.com/liuyinz/liuyinz.github.io.git public
 ### 设置主题
 
 ```bash
-git submodule add https://github.com/liuyinz/hugo-PaperMod.git themes/papermod
-# 修改config.yaml
+# 添加主题
+git submodule add https://github.com/athul/archie.git themes/archie
+# 修改config.toml
+theme = archie
 ```
 
 ### 撰写首篇博客
@@ -50,4 +52,4 @@ hugo new post/set-blog.md
 
 ### 设置 pages 仓库
 
-设置 liuyinz.github.io 仓库，打开 setting，定位至 Github Pages 处，设置为 master
+设置 `liuyinz.github.io` 仓库, setting -> Github Pages -> `master /root`
