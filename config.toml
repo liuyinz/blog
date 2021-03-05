@@ -3,18 +3,18 @@
 title = "食無魚"
 baseURL = "https://liuyinz.github.io/"
 paginate = 10
-# enableGitInfo = true
-# enableRobotsTXT = true
+enableGitInfo = true
+enableRobotsTXT = true
 buildDrafts = false
 buildExpired = false
 buildFuture = false
 languageCode = "en-us"
 hasCJKLanguage = true
-# ShowToc = true
-# TocOpen = true
-copyright = "© Athul"
+ShowToc = true
+TocOpen = true
+copyright = "© Liuyinz"
 # Code Highlight
-pygmentsstyle = "dracula"
+pygmentsstyle = "emacs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
