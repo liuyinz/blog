@@ -31,7 +31,7 @@ theme = "archie"
 [params]
 mode = "light" # color-mode → light,dark or auto
 useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
-subtitle = "Blog for coding!"
+subtitle = "Happy Coding!"
 
 # - name: stackoverflow
 #   url: 'https://stackoverflow.com/users/13194984/yinz-liu'
