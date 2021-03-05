@@ -1,0 +1,63 @@
+# https://gohugo.io/getting-started/configuration/
+# https://github.com/athul/archie
+title = "食無魚"
+baseURL = "https://liuyinz.github.io/"
+paginate = 10
+# enableGitInfo = true
+# enableRobotsTXT = true
+buildDrafts = false
+buildExpired = false
+buildFuture = false
+languageCode = "en-us"
+hasCJKLanguage = true
+# ShowToc = true
+# TocOpen = true
+copyright = "© Athul"
+# Code Highlight
+pygmentsstyle = "dracula"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#
+# [permalinks]
+# posts = "/:year/:month/:title/"
+#
+#
+# [taxonomies]
+# tag = "tags"
+#
+theme = "archie"
+
+[params]
+mode = "light" # color-mode → light,dark or auto
+useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
+subtitle = "Blog for coding!"
+
+# - name: stackoverflow
+#   url: 'https://stackoverflow.com/users/13194984/yinz-liu'
+# Social Tags
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/liuyinz"
+
+# Main menu Items
+[[menu.main]]
+name = "主页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "日志"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "标签"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "关于"
+url = "/about"
+weight = 4
