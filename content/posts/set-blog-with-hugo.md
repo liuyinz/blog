@@ -6,6 +6,15 @@ tags:
   - hugo
 draft: false
 ---
+<!-- markdown-toc start -->
+**目录**
+
+- [安装并准备环境](#安装并准备环境)
+- [设置主题](#设置主题)
+- [撰写首篇博客](#撰写首篇博客)
+- [设置 pages 仓库](#设置-pages-仓库)
+
+<!-- markdown-toc end -->
 
 ### 安装并准备环境
 
