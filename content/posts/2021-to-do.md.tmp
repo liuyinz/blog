@@ -21,14 +21,7 @@ tags:
 
 - Elisp
 
-  - [x] Use transient rewrite easy-hugo
+  - [x] PR: use transient rewrite easy-hugo
   - [x] Try gccemacs
   - [ ] add with-proxy commands for embark
   - [x] gist management by emacs
-  - [ ] Implement consult-todo
-  - [ ] Implement regex any-rule's emacs plugin
-  - [ ] Implement consult-jq
-
-- Bash
-  - [ ] Implement gh fzf plugin
-  
